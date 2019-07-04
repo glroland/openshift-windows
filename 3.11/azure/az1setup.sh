@@ -31,5 +31,5 @@ SSH_PRIVATE_BASE64_CONTENTS=$(<$SSH_KEYFILE.base64)
 sed -i '' -e  "s|SSH_PRIVATE_BASE64|$SSH_PRIVATE_BASE64_CONTENTS|g" "$PARMS_FILE"
 
 # az login
-# az ad sp create-for-rbac -n ocp -p r3dh@t123  --subscription "Pay-As-You-Go"
+# az ad sp create-for-rbac -n $AZURE_AD_NAME -p $AZURE_AD_SECRET  --subscription "Pay-As-You-Go"
 
