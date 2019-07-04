@@ -1,0 +1,46 @@
+{
+  "$schema" : "https://schema.management.azure.com/schemas/2015-01-01/deploymentparameters.json#",
+  "contentVersion" : "1.0.0.0",
+  "parameters" : {
+    "adminUsername" : {
+      "value" : "ADMIN_USERNAME"
+    },
+    "adminPassword" : {
+      "value" : "ADMIN_PASSWORD"
+    },
+    "sshKeyData" : {
+      "value" : "SSH_PUBLIC"
+    },
+    "image" : {
+      "value" : "rhel"
+    },
+    "vmSize" : {
+      "value" : "Standard_E2_v3"
+    },
+    "winVMSize" : {
+      "value" : "Standard_DS4_v2"
+    },
+    "RHNUserName" : {
+      "value" : "RHN_USERNAME"
+    },
+    "RHNPassword" : {
+      "value" : "RHN_PASSWORD"
+    },
+    "SubscriptionPoolId" : {
+      "value" : "RHN_POOL_ID"
+    },
+    "sshPrivateData" : {
+      "value" : "SSH_PRIVATE_BASE64"
+    },
+    "aadClientId" : {
+      "value" : "AZURE_AD_APP_ID"
+    },
+    "aadClientSecret" : {
+      "value" : "AZURE_AD_SECRET"
+    },
+    "rhsmUsernamePasswordOrActivationKey" : {
+      "value" : "usernamepassword"
+    }
+  }
+}
+
