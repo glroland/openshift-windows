@@ -444,7 +444,7 @@
     "windows" : {
       "publisher" : "MicrosoftWindowsServer",
       "offer" : "WindowsServerSemiAnnual",
-      "sku" : "Datacenter-Core-1903-with-Containers-smalldisk",
+      "sku" : "2019-Datacenter-with-Containers".
       "version" : "latest"
     },
     "WinnicName" : "WindowsNic"
